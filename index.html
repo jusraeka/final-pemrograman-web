@@ -3,104 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya - Green Theme</title>
+    <title>Portofolio Saya</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="container nav-container">
-            
-            <div class="hamburger" id="hamburger-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container nav-container">
+        <div class="logo">Jusra<span>Eka</span></div>
+
+        <div class="hamburger" id="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#portfolio">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+    <div class="container hero-content">
+        <h1>Selamat Datang di Website Saya</h1>
+        <p>Mahasiswa Matematika & Calon Web Developer (Amin)</p>
+        <button id="sapa-btn" class="btn-primary">Sapa Saya!</button>
+    </div>
+</section>
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section-padding reveal">
+    <div class="container">
+        <h2>Tentang Saya</h2>
+        <article class="data-diri-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Biodata Diri</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <!-- FOTO -->
+                    <tr>
+                        <td colspan="2" class="foto-td">
+                            <img src="jusra.jpg" alt="Foto Jusra" class="foto-biodata">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td>Jusra Eka Rahmadini</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, Tanggal Lahir</td>
+                        <td>Tarobok, 17 Juni 2005</td>
+                    </tr>
+                    <tr>
+                        <td>Universitas</td>
+                        <td>UIN Alauddin Makassar</td>
+                    </tr>
+                    <tr>
+                        <td>Jurusan</td>
+                        <td>Matematika</td>
+                    </tr>
+                    <tr>
+                        <td>Minat</td>
+                        <td>Web & Mobile</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </article>
+    </div>
+</section>
+
+<!-- ===== KONTAK ===== -->
+<section id="portfolio" class="section-padding bg-light reveal">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/_jusraeka/" target="_blank">@jusraeka</a>
             </div>
-            <nav>
-                <ul id="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Tentang Saya</a></li>
-                    <li><a href="#portfolio">Portofolio</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <img src="jusra.jpg" alt="foto jusra" class="profile-photo home-photo"           <div class="logo">Jusra<span>Eka</span></div>
-            <h1>Selamat Datang di Website Saya</h1>
-            <p>Mahasiswa Matematika & Calon Web Developer(amin)</p>
-            <button id="sapa-btn" class="btn-primary">Sapa Saya!</button>
-        </div>
-    </section>
-
-    <section id="about" class="section-padding reveal">
-        <div class="container">
-            <h2>Tentang Saya</h2>
-            <p class="subtitle">Informasi pribadi dan latar belakang.</p>
-            
-            <article class="data-diri-card">
-                <table class="data-table reveal">
-                    <thead>
-                        <tr>
-                            <th colspan="2">Biodata Diri</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Nama Lengkap</td>
-                            <td>Jusra Eka Rahmadini</td>
-                        </tr>
-                        <tr>
-                            <td>Tempat, Tanggal Lahir</td>
-                            <td>tarobok, 17 juni 2005</td>
-                        </tr>
-                        <tr>
-                            <td>Universitas</td>
-                            <td>UIN Alauddin Makassar</td>
-                        </tr>
-                        <tr>
-                            <td>Jurusan</td>
-                            <td>Matematika</td>
-                        </tr>
-                        <tr>
-                            <td>Minat</td>
-                            <td>Web , mobile</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section-padding bg-light reveal">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <h3>Instagram 1</h3>
-                    <a href="https://www.instagram.com/_jusraeka/" target="_blank" >@jusraeka</a>
-                </div>
-                <div class="portfolio-item">
-                    <h3>Titok</h3>
-                    <a href="https://www.Tiktok.com/@jusra.ekha/" target="_blank" >@jusra.ekha</a>
-                </div>
-                <div class="portfolio-item">
-                    <h3>WhatsApp</h3>
-                    <a href="https://wa.me/6287762216223" target="_blank">Chat Saya</a>
-                </div>
+            <div class="portfolio-item">
+                <h3>TikTok</h3>
+                <a href="https://www.tiktok.com/@jusra.ekha" target="_blank">@jusra.ekha</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/6287762216223" target="_blank">Chat Saya</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 dimulai dengan membuat Web</p>
-        </div>
-    </footer>
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>&copy; 2026 — Dimulai dengan Membuat Web</p>
+</footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
