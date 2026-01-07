@@ -1,8 +1,8 @@
 /* --- Variabel Warna (Tema UIN Alauddin: Hijau & Putih) --- */
 :root {
-    --primary-green: #006837; /* Hijau Tua Khas UIN */
-    --secondary-green: #004d29;
-    --accent-gold: #f1c40f;   /* Aksen pelengkap */
+    --primary-blue: #446ee0; /* Hijau Tua Khas UIN */
+    --secondary-blue: #1a3b96;
+    --accent-blue: #42a5f5;;   /* Aksen pelengkap */
     --white: #ffffff;
     --light-gray: #f4f4f4;
     --dark-text: #333333;
